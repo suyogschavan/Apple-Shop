@@ -1,0 +1,33 @@
+E:\Visual Basics\GAD Home\GAD Home\bin\Debug\GAD Home.exe
+E:\Visual Basics\GAD Home\GAD Home\bin\Debug\GAD Home.pdb
+E:\Visual Basics\GAD Home\GAD Home\bin\Debug\GAD Home.xml
+E:\Visual Basics\GAD Home\GAD Home\obj\x86\Debug\WindowsApplication1.Resources.resources
+E:\Visual Basics\GAD Home\GAD Home\obj\x86\Debug\WindowsApplication1.iPad.resources
+E:\Visual Basics\GAD Home\GAD Home\obj\x86\Debug\GAD Home.vbproj.GenerateResource.Cache
+E:\Visual Basics\GAD Home\GAD Home\obj\x86\Debug\GAD Home.exe
+E:\Visual Basics\GAD Home\GAD Home\obj\x86\Debug\GAD Home.xml
+E:\Visual Basics\GAD Home\GAD Home\obj\x86\Debug\GAD Home.pdb
+E:\Visual Basics\GAD Home\GAD Home\obj\x86\Debug\WindowsApplication1.iMac__24in.resources
+E:\Visual Basics\GAD Home\GAD Home\obj\x86\Debug\WindowsApplication1.iPhone.resources
+E:\Visual Basics\GAD Home\GAD Home\obj\x86\Debug\WindowsApplication1.Buy_iPad_pro.resources
+E:\Visual Basics\GAD Home\GAD Home\obj\x86\Debug\WindowsApplication1.Home.resources
+E:\Visual Basics\GAD Home\GAD Home\obj\x86\Debug\WindowsApplication1.Buy_iPad.resources
+E:\Visual Basics\GAD Home\GAD Home\obj\x86\Debug\WindowsApplication1.Buy_iPad_air.resources
+E:\Visual Basics\GAD Home\GAD Home\obj\x86\Debug\WindowsApplication1.Buy_iPad_mini.resources
+E:\Visual Basics\GAD Home\GAD Home\obj\x86\Debug\WindowsApplication1.Buy_iPhone1.resources
+E:\Visual Basics\GAD Home\GAD Home\obj\x86\Debug\WindowsApplication1.Buy_iMac24.resources
+E:\Visual Basics\GAD Home\GAD Home\obj\x86\Debug\WindowsApplication1.Buy_iPhone2.resources
+E:\Visual Basics\GAD Home\GAD Home\obj\x86\Debug\WindowsApplication1.LoginPG.resources
+E:\Visual Basics\GAD Home\GAD Home\obj\x86\Debug\WindowsApplication1.Bag.resources
+E:\Visual Basics\GAD Home\GAD Home\obj\x86\Debug\GAD Home.vbprojResolveAssemblyReference.cache
+E:\Visual Basics\GAD Home\GAD Home\obj\x86\Debug\WindowsApplication1.Create_Account.resources
+E:\Visual Basics\GAD Home\GAD Home\obj\x86\Debug\WindowsApplication1.Orders.resources
+E:\Visual Basics\GAD Home\GAD Home\bin\Debug\GAD Home.exe.config
+E:\Visual Basics\GAD Home\GAD Home\bin\Debug\GAD Home.exe.manifest
+E:\Visual Basics\GAD Home\GAD Home\bin\Debug\GAD Home.application
+E:\Visual Basics\GAD Home\GAD Home\obj\x86\Debug\GAD Home.exe.manifest
+E:\Visual Basics\GAD Home\GAD Home\obj\x86\Debug\GAD Home.application
+E:\Visual Basics\GAD Home\GAD Home\obj\x86\Debug\WindowsApplication1.But_WatchSE.resources
+E:\Visual Basics\GAD Home\GAD Home\obj\x86\Debug\WindowsApplication1.Buy_Watch3.resources
+E:\Visual Basics\GAD Home\GAD Home\obj\x86\Debug\WindowsApplication1.Buy_Watch6.resources
+E:\Visual Basics\GAD Home\GAD Home\obj\x86\Debug\WindowsApplication1.Watch.resources

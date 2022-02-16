@@ -1,0 +1,646 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{099CF5C2-6BDB-421E-B0E6-71E7806DE601}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Apple.My.MyApplication</StartupObject>
+    <RootNamespace>Apple</RootNamespace>
+    <AssemblyName>Apple store</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Saurav\Desktop\QWERTY\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Apple store.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Apple store.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>358B8861908FA9DB7FE34F8A4BEED23E3CD0158C</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>GAD Home_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>lulgo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="Create Account.Designer.vb">
+      <DependentUpon>Create Account.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Create Account.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Resources\About.Designer.vb">
+      <DependentUpon>About.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\About.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\But_WatchSE.Designer.vb">
+      <DependentUpon>But_WatchSE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\But_WatchSE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Buy_iMac24.Designer.vb">
+      <DependentUpon>Buy_iMac24.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Buy_iMac24.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Buy_iPad.Designer.vb">
+      <DependentUpon>Buy_iPad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Buy_iPad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Buy_iPad_air.Designer.vb">
+      <DependentUpon>Buy_iPad_air.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Buy_iPad_air.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Buy_iPad_mini.Designer.vb">
+      <DependentUpon>Buy_iPad_mini.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Buy_iPad_mini.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Buy_iPad_pro.Designer.vb">
+      <DependentUpon>Buy_iPad_pro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Buy_iPad_pro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Buy_iPhone1.Designer.vb">
+      <DependentUpon>Buy_iPhone1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Buy_iPhone1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Buy_iPhone2.Designer.vb">
+      <DependentUpon>Buy_iPhone2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Buy_iPhone2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Buy_Watch3.Designer.vb">
+      <DependentUpon>Buy_Watch3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Buy_Watch3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Buy_Watch6.Designer.vb">
+      <DependentUpon>Buy_Watch6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Buy_Watch6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Home.Designer.vb">
+      <DependentUpon>Home.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\iMac _24in.Designer.vb">
+      <DependentUpon>iMac _24in.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\iMac _24in.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\iPad.Designer.vb">
+      <DependentUpon>iPad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\iPad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\iPhone.Designer.vb">
+      <DependentUpon>iPhone.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\iPhone.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\LoginPG.Designer.vb">
+      <DependentUpon>LoginPG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\LoginPG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Orders.Designer.vb">
+      <DependentUpon>Orders.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Orders.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Splash.Designer.vb">
+      <DependentUpon>Splash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Splash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Resources\Watch.Designer.vb">
+      <DependentUpon>Watch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Watch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash2.Designer.vb">
+      <DependentUpon>Splash2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Splash2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StoreDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StoreDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="StoreDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StoreDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="StoreDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StoreDataSet2.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Create Account.resx">
+      <DependentUpon>Create Account.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\About.resx">
+      <DependentUpon>About.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\But_WatchSE.resx">
+      <DependentUpon>But_WatchSE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Buy_iMac24.resx">
+      <DependentUpon>Buy_iMac24.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Buy_iPad.resx">
+      <DependentUpon>Buy_iPad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Buy_iPad_air.resx">
+      <DependentUpon>Buy_iPad_air.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Buy_iPad_mini.resx">
+      <DependentUpon>Buy_iPad_mini.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Buy_iPad_pro.resx">
+      <DependentUpon>Buy_iPad_pro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Buy_iPhone1.resx">
+      <DependentUpon>Buy_iPhone1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Buy_iPhone2.resx">
+      <DependentUpon>Buy_iPhone2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Buy_Watch3.resx">
+      <DependentUpon>Buy_Watch3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Buy_Watch6.resx">
+      <DependentUpon>Buy_Watch6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Home.resx">
+      <DependentUpon>Home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\iMac _24in.resx">
+      <DependentUpon>iMac _24in.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\iPad.resx">
+      <DependentUpon>iPad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\iPhone.resx">
+      <DependentUpon>iPhone.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\LoginPG.resx">
+      <DependentUpon>LoginPG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Orders.resx">
+      <DependentUpon>Orders.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Splash.resx">
+      <DependentUpon>Splash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Watch.resx">
+      <DependentUpon>Watch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash2.resx">
+      <DependentUpon>Splash2.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="GAD Home_TemporaryKey.pfx" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="StoreDataSet.xsc">
+      <DependentUpon>StoreDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="StoreDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>StoreDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="StoreDataSet.xss">
+      <DependentUpon>StoreDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="StoreDataSet1.xsc">
+      <DependentUpon>StoreDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="StoreDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>StoreDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="StoreDataSet1.xss">
+      <DependentUpon>StoreDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="StoreDataSet2.xsc">
+      <DependentUpon>StoreDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="StoreDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>StoreDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="StoreDataSet2.xss">
+      <DependentUpon>StoreDataSet2.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_24pxa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_24pxa1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2021-05-30 121155.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2021-05-30 122451.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping_bag_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping_bag_24px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2021-05-30 131903.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2021-05-30 142657.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2021-05-30 162718.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2021-05-30 1627181.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2021-05-30 1627182.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2021-05-30 172818.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2021-05-30 174829.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2021-05-30 175323.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot %2817%29_LI.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InkedScreenshot %2817%29_LI.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2021-05-30 1627183.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2021-05-30 130510.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2021-05-31 160109.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2021-05-31 160824.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2021-05-31 161733.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2021-05-31 161839.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2021-05-30 1627184.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2021-05-31 165530.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2021-05-31 170846.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2021-05-31 173141.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2021-05-31 173449.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2021-05-31 173548.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2021-05-31 173640.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buy_iPad_pro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2021-05-31 210112.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iPadAIR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Air_inBox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pad_inBox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iPad_mini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mini_inBox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SE_inBox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12Pro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pro_inBox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iMac_Blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iMac_Blue_inBox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12mini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SE1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Startup1.wav" />
+    <None Include="Resources\W3inBoxblack.png" />
+    <None Include="Resources\W3white.png" />
+    <None Include="Resources\W3inBoxwhite.png" />
+    <None Include="Resources\watch4.png" />
+    <None Include="Resources\watchPink.png" />
+    <None Include="Resources\watchBlack.png" />
+    <None Include="Resources\whats in box watch.png" />
+    <None Include="Resources\watch1.png" />
+    <None Include="Resources\12miniBlack.png" />
+    <None Include="Resources\12miniBlackinBox.png" />
+    <None Include="Resources\12miniBlue.png" />
+    <None Include="Resources\12miniBlueinBox.png" />
+    <None Include="Resources\12miniGreen.png" />
+    <None Include="Resources\12miniGreeninBox.png" />
+    <None Include="Resources\12miniPurple.png" />
+    <None Include="Resources\12miniPurpleinBox.png" />
+    <None Include="Resources\12miniRed.png" />
+    <None Include="Resources\12miniRedinbox.png" />
+    <None Include="Resources\12miniWhite.png" />
+    <None Include="Resources\12miniWhiteinBox.png" />
+    <None Include="Resources\12proBlue.png" />
+    <None Include="Resources\12proBlueinBox.png" />
+    <None Include="Resources\12proGold.png" />
+    <None Include="Resources\12proGoldinBox.png" />
+    <None Include="Resources\12proGraphite.png" />
+    <None Include="Resources\12proGraphiteinBox.png" />
+    <None Include="Resources\12proSilver.png" />
+    <None Include="Resources\12proSilverinBox.png" />
+    <None Include="Resources\Air_inBox1.png" />
+    <None Include="Resources\AirGrey.png" />
+    <None Include="Resources\AirGreyinBox.png" />
+    <None Include="Resources\AirSilver.png" />
+    <None Include="Resources\AirSilverinBox.png" />
+    <None Include="Resources\iMac_Blue1.png" />
+    <None Include="Resources\iMac_Blue_inBox1.png" />
+    <None Include="Resources\iMac_Orange.png" />
+    <None Include="Resources\iMac_Pink.png" />
+    <None Include="Resources\iMac_Purple.png" />
+    <None Include="Resources\iMac_Yellow.png" />
+    <None Include="Resources\iPhone12DEF.png" />
+    <None Include="Resources\mini_inBox1.png" />
+    <None Include="Resources\Pad_inBox1.png" />
+    <None Include="Resources\PadGrey.png" />
+    <None Include="Resources\PadGreyinBox.png" />
+    <None Include="Resources\PadminGreyinBox.png" />
+    <None Include="Resources\PadminiGrey.png" />
+    <None Include="Resources\PadminiSilver.png" />
+    <None Include="Resources\PadminiSilverinBox.png" />
+    <None Include="Resources\PadSilver.png" />
+    <None Include="Resources\PadSilverinBox.png" />
+    <None Include="Resources\Pro_inBox1.png" />
+    <None Include="Resources\ProMax_inBox.png" />
+    <None Include="Resources\ProSilver.png" />
+    <None Include="Resources\ProSilverinBox.png" />
+    <None Include="Resources\ProGrey.png" />
+    <None Include="Resources\ProGreyinBox.png" />
+    <None Include="Resources\12promax1.png" />
+    <None Include="Resources\1.png" />
+    <None Include="Resources\2.png" />
+    <None Include="Resources\35.png" />
+    <None Include="Resources\inBoxBlack.png" />
+    <None Include="Resources\inBoxPink.png" />
+    <None Include="Resources\inBoxWhite.png" />
+    <None Include="Resources\cLook.png" />
+    <None Include="Resources\SEinBoxwhite.png" />
+    <None Include="Resources\SEpink.png" />
+    <None Include="Resources\SEblack.png" />
+    <None Include="Resources\SEinBoxblack.png" />
+    <None Include="Resources\SEinBoxpink.png" />
+    <None Include="Resources\SEwhite.png" />
+    <None Include="Resources\cLookSE.png" />
+    <None Include="Resources\iMaccLook.png" />
+    <None Include="Resources\PadAircLook.png" />
+    <None Include="Resources\PadcLook.png" />
+    <None Include="Resources\PadProcLook.png" />
+    <Content Include="icons8_apple_logo.ico" />
+    <None Include="Resources\logo.png" />
+    <None Include="Resources\loadBar.jpg" />
+    <Content Include="lulgo.ico" />
+    <Content Include="Resources\SE_Black.png" />
+    <None Include="Resources\SE_Black1.png" />
+    <None Include="Resources\SE_inBoxRed.png" />
+    <None Include="Resources\SE_inBoxWhite.png" />
+    <Content Include="Resources\SE_Red.png" />
+    <None Include="Resources\SE_white1.png" />
+    <None Include="Resources\SE_Red1.png" />
+    <Content Include="Resources\SE_white.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

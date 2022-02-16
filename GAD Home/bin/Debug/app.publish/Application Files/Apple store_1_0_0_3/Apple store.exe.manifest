@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Apple store.exe" version="1.0.0.3" publicKeyToken="f313cec8cfae1ee1" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="lulgo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Apple store" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Apple store.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Apple store.exe" size="26722304">
+      <assemblyIdentity name="Apple store" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>rEmh6BI6Ght0V6IXQdaPWZnHsNk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Apple store.exe.config" size="1643">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>jQiUKBqqa914bvcx6UkY2ErV2Xg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icons8_apple_logo.ico" size="15086">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>pIM+ZAM3gFnu7I822nZHUg5Mqms=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="lulgo.ico" size="22382">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Rkiagj/pbAGWyeqwso/nDuNK9/0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\SE_Black.png" size="138754">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>tc4iObU7ZB7efwuQ12R5tzU8pSE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\SE_Red.png" size="152319">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>bpsQ4R7uoZADRfz+KDIvBVHADJ4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\SE_white.png" size="151015">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>AaCsnI+60xRc27/dsYp1MhcX2dQ=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=HP-SAURAV\Saurav" issuerKeyHash="d93ea84fc9fe1980c254d94336d1f5d48c104fd6" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>CcsZTOof2VGa5U3YUsZlIk2qx4w=</DigestValue></Reference></SignedInfo><SignatureValue>kJehkbwPGSP0E74aYHM9KAJ4myOQwRFdImjOs/nIV82qfzZXym6KDbKQRn+MiU4Ac+k1cieSCw1zVd59XxJ47TO8cCbLPnexHfn935GclTjGytlPuIoGADik7HWSsWTOWR3q/EBbcFOCxRe3f2sfV2TOvqSJ/i9xe0lNGZqtikQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tiRljDh4+y4idsAAtVsJFLaxN99CNGT/0+JjO4qa1owfBcQPkrVu4wlDAqa+fEpBQNxaZwcu24lhhXe27hm3FbIMgnkpO/iBmCQ/VzBRDV/tvVdrkCR89GMPGcBj3Yig5jnsX5CiBgXSiI2u3tAtdZy6mCAiOWQv0W1QzFf8rtU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8cc7aa4d2265c652d84de59a51d91fea4c19cb09" Description="" Url=""><as:assemblyIdentity name="Apple store.exe" version="1.0.0.3" publicKeyToken="f313cec8cfae1ee1" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HP-SAURAV\Saurav</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>ulcAlD5gniU1GqWBt6YkF31InrE=</DigestValue></Reference></SignedInfo><SignatureValue>iWRmYnh0v2rL8tcFJUqiwo15BPr+dnoY+OnkJEguj+Qc0RTshz+LBJunXo3sUifaXKa5Pf/UFspZf79xuJVD82LPgBmS66vv9esyvCDtKJshscioco3o5yBEq2bi47otgOYdL1DcVqVoRhgIJFYXhRTKiHa3veJmJ/vS6yV5Pyw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tiRljDh4+y4idsAAtVsJFLaxN99CNGT/0+JjO4qa1owfBcQPkrVu4wlDAqa+fEpBQNxaZwcu24lhhXe27hm3FbIMgnkpO/iBmCQ/VzBRDV/tvVdrkCR89GMPGcBj3Yig5jnsX5CiBgXSiI2u3tAtdZy6mCAiOWQv0W1QzFf8rtU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQRfeSnIewBKRF2LqDM0dRPzANBgkqhkiG9w0BAQUFADArMSkwJwYDVQQDHiAASABQAC0AUwBBAFUAUgBBAFYAXABTAGEAdQByAGEAdjAeFw0yMTA2MTEwNTUzMTRaFw0yMjA2MTExMTUzMTRaMCsxKTAnBgNVBAMeIABIAFAALQBTAEEAVQBSAEEAVgBcAFMAYQB1AHIAYQB2MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2JGWMOHj7LiJ2wAC1WwkUtrE330I0ZP/T4mM7iprWjB8FxA+StW7jCUMCpr58SkFA3FpnBy7biWGFd7buGbcVsgyCeSk7+IGYJD9XMFENX+29V2uQJHz0Yw8ZwGPdiKDmOexfkKIGBdKIja7e0C11nLqYICI5ZC/RbVDMV/yu1QIDAQABMA0GCSqGSIb3DQEBBQUAA4GBADyWvmOG8U8tRhy/Lp5Flv2z8O3tmajtMQx1+O9j4QszOw5dFu5iTUbAvMgJH7PBBAVgwEZgOXuP05MRQtuD1I1/mO27tamWeJ5uG4R7PtNdlwcA04g0WSmSpPc3mKPt0+a33xos+J42lzzEDoqf29furlnKzkvDGq0L1Kj5/sNE</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
